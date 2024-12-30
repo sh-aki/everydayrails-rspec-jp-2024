@@ -131,6 +131,7 @@ GEM
     faker (3.2.2)
       i18n (>= 1.8.11, < 2)
     ffi (1.16.3)
+    fiddle (1.1.2)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashdiff (1.1.0)
@@ -159,6 +160,7 @@ GEM
       letter_opener (~> 1.7)
       railties (>= 5.2)
       rexml
+    logger (1.6.4)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -197,6 +199,7 @@ GEM
     nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    ostruct (0.6.0)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -338,12 +341,15 @@ DEPENDENCIES
   devise
   factory_bot_rails
   faker
+  fiddle
   geocoder!
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
   launchy
   letter_opener_web
+  logger
+  ostruct
   puma (>= 5.0)
   rails (~> 7.1.2)
   rspec-rails

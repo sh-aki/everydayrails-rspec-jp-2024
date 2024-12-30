@@ -78,3 +78,7 @@ gem "devise"
 gem "activestorage-validator"
 # Waiting for https://github.com/alexreisner/geocoder/issues/1642 to be released
 gem "geocoder", github: "alexreisner/geocoder"
+
+gem 'ostruct'
+gem 'logger'
+gem 'fiddle'
